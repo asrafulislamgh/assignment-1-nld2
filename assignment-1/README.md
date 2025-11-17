@@ -82,6 +82,7 @@ Blog-2
 
 # TypeScript এ `keyof` Keyword এর কাজ কি?
 
+
 TypeScript-এর একটি গুরুত্বপূর্ণ অপারেটর `keyof`। এই keyword ব্যবহৃত হয় **কোনো object type-এর key গুলোর union type বের করার জন্য**। 
 
 ধরা যাক আপনার কাছে একটি Object আছে। সেই Object-এর যতগুলো `key` আছে, `keyof` সেগুলোর নামগুলোকে TypeScript-এর type বানিয়ে দেয়।
