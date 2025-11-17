@@ -112,7 +112,7 @@ console.log(getProperty(person, "age"));  // 30
 // console.log(getProperty(person, "country")); 
 
 
-##ব্যবহারিক গুরুত্ব
+## ব্যবহারিক গুরুত্ব
 
 Object-এর প্রপার্টি dynamic ভাবে access করার সময় type safety রাখে।
 শুধুমাত্র valid keys ব্যবহার নিশ্চিত করে।
