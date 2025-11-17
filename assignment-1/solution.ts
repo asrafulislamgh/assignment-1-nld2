@@ -42,7 +42,6 @@ class Person {
 
 
 
-
 type bookType = {
     title : string;
     rating : number;
