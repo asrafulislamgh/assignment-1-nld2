@@ -12,6 +12,7 @@ TypeScript এ `interface` ও `type` দুটোই ডাটা এর গঠ
       name: string;
       author: number;
   }
+```
 
 **Type:** তৈরী করার জন্য type keyword দিয়ে তার নাম দেয়া হয় আর = {} মধ্যে প্রপার্টি বসে।
 
@@ -20,6 +21,7 @@ TypeScript এ `interface` ও `type` দুটোই ডাটা এর গঠ
       name: string;
       author: number;
   }
+```
 
 ## 2. Declaration / Definition
 **Interface:** দিয়ে Object Structure, Function এবং class এর shape define করার জন্য ব্যবহৃত হয়।
@@ -29,12 +31,14 @@ TypeScript এ `interface` ও `type` দুটোই ডাটা এর গঠ
       name: string;
       age: number;
   }
+```
 
 **Interface:** object, primitive, union, tuple, function সব define করা যায়।
 
 ```ts
 type ID = number | string;
 type Person = { name: string; age: number };
+```
 
 
 ## 3. Extending
@@ -48,7 +52,7 @@ interface Car {
 interface Toyota extends Car {
     speed: string;
 }
-
+```
 
 **Type:** এ অন্য একটি Type extend করার জন্য intersection & ব্যবহার করা হয়।
 
@@ -60,6 +64,7 @@ type Car = {
 type Toyota = Car & {
     speed: string;
 }
+```
 
 ## 4. Merging
 **Interface:** একই নামে multiple interface declare করলে auto merge হয়ে যায়।
@@ -72,6 +77,7 @@ interface Person {
     age: number;
 }
 // Result: { name: string; age: number }
+```
 
 **Type:** একই নামে type declare করলে Merge হয় না, error হয়।
 
@@ -111,7 +117,7 @@ console.log(getProperty(person, "age"));  // 30
 
 // এটা কাজ করবে না কারণ "country" নামের কোনো key নেই
 // console.log(getProperty(person, "country")); 
-
+```
 
 ## ব্যবহারিক গুরুত্ব
 
